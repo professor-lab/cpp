@@ -1,6 +1,5 @@
 #include <iostream>
-#include <stdio.h>
-#include<conio.h>
+
 using namespace std;
 
 //prototype (declaration)
@@ -12,7 +11,9 @@ int main()
     cout<<volume(10)<<"\n";
     cout<<volume(2.5,8)<<"\n";
     cout<<volume(100,75,15)<<"\n";
+    
     return 0;
+  
 }
 //fnction definitions
 int volume(int s)//cube
