@@ -18,8 +18,8 @@ void person::getdata(void)
 }
 void person::putdata(void)
 {
-    cout<<"\n Name: ";
-    cout<<"\n Age: ";
+    cout<<"\n Name: "<<name;
+    cout<<"\n Age: "<<age;
 }
 
 int main()
@@ -28,7 +28,5 @@ int main()
     p.getdata();
     p.putdata();
 
-
-    
     return 0;
 }
