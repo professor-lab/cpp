@@ -5,14 +5,14 @@ int main()
 {
     float amount;
     float value(float p,int n,float r=0.15); //prototype
-    void printline(char ch='*',int len=40); //prototype
+    void printline(char ch='=',int len=40); //prototype
 
     printline(); //use of defult values for argument
 
     amount=value(5000.00,5); ///defult 3rd argument
 
     cout<<"\n final value = "<<amount<<"\n";
-    printline('='); 
+    printline(); 
 
     return 0;
 }
