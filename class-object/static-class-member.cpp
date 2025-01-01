@@ -27,9 +27,9 @@ int main()
     b.getcount();
     c.getcount();
 
-    a.getdata(100);
+    a.getdata(10);
     b.getdata(200);
-    c.getdata(300);
+    c.getdata(3000);
 
     cout<<"\n After reading Data \n";
 
