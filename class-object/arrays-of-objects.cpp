@@ -3,7 +3,7 @@ using namespace std;
 
 class employee
 {
-private:
+
     char name[30];
     float age;
 public:
@@ -24,14 +24,23 @@ void employee::putdata(void)
     cout<<"\n age: "<<age;
     
 }
-const int size=3;
+//const int size=3;
 int main()
 {
+    const int size=3;
     employee manager[size];
     for(int i=0;i<size;i++)
     {
-        cout<<"\n Details of manager"<<i=1<<"\n";
+        cout<<"\n Details of manager"<<i+1<<"\n";
+        manager[i].getdata();
     }
+    cout<<"\n";
+    for(int i=0;i<size;i++)
+    {
+        cout<<"\n Manager : "<<i+1<<"\n";
+        manager[i].putdata();
+    }
+    return 0;
 }
 
 
