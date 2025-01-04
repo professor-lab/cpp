@@ -17,12 +17,12 @@ class D : public B
         void mul(void);
         void display(void);
 };
-void B :: get_ab(void)
+int B::get_a()
 {
     a=5;
     b=10;
 }
-int B :: get_a();
+void B :: get_a()
 {
     return a;
 }
@@ -38,7 +38,7 @@ void D :: display()
 {
     cout<<"a = "<<get_a()<<"\n";
     cout<<"b = "<<b<<"\n";
-    cout<<"c = "c<<"\n\n";
+    cout<<"c = "<<c<<"\n\n";
 }
 int main()
 {
