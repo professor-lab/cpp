@@ -33,4 +33,6 @@ increment::~increment()
 int main()
 {
     increment a;
+
+    return 0;
 }
