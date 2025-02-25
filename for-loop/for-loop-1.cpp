@@ -6,7 +6,7 @@ int main()
     int n=10;
     for(int i=1;i<=n;i++)
     {
-        cout<<"no : "<<i;
+        cout<<"no : "<<i<<endl;
     }
 
 return 0;
